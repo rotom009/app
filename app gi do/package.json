@@ -1,0 +1,33 @@
+{
+  "name": "app-gi-do",
+  "version": "1.0.0",
+  "description": "nodejs",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --inspect src/index.js",
+    "watch": "node-sass --watch src/resources/scss/ --output src/public/css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rotom009/desktop-tutorial.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "nguyentritai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rotom009/desktop-tutorial/issues"
+  },
+  "homepage": "https://github.com/rotom009/desktop-tutorial#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.2",
+    "node-sass": "^7.0.1"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  }
+}
