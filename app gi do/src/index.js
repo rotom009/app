@@ -14,9 +14,11 @@ app.get('/trangchu', (req, res) => {
   res.render('home')
 })
 app.get('/', (req, res) => {
-  res.render('detail')
+  res.render('home')
 })
-
+app.get('/timkiem', (req, res) => {
+  res.render('search')
+})
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
